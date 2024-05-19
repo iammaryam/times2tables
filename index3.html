@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./indexes.css" />
+    </head>
+    <body>
+        <header class="header-container">
+            <div class="logo-div">
+                <img class="logo" src="./files/logo.png" alt="A multiplication fun logo" title="Times2tables logo" />
+            </div>
+
+            <div class="title">
+                <h1 id="page-name" title="Times2tables">Times2tables</h1>
+            </div>
+        </header>
+        
+        <div class="grid-container">
+            <div class="grid-item">
+                <h2>2 x 1 = 2</h2>
+            </div>
+
+            <div class="grid-item">
+                <h2>2 x 2 = 4</h2>            
+            </div>
+
+            <div class="grid-item">
+                <h2>2 x 3 = 6</h2> 
+            </div>
+
+            <div class="grid-item">
+                <h2>2 x 4 = 8</h2> 
+            </div>
+
+            <div class="grid-item">
+                <h2>2 x 5 = 10</h2> 
+            </div>
+
+            <div class="grid-item">
+                <h2>2 x 6 = 12</h2> 
+            </div>
+
+            <div class="grid-item">
+                <h2>2 x 7 = 14</h2> 
+            </div>
+
+            <div class="grid-item">
+                <h2>2 x 8 = 16</h2> 
+            </div>
+
+            <div class="grid-item">
+                <h2>2 x 9 = 18</h2> 
+            </div>
+
+            <div class="grid-item">
+                <h2>2 x 10 = 20</h2> 
+            </div>
+
+            <div class="grid-item">
+                <h2>2 x 11 = 22</h2> 
+            </div>
+
+            <div class="grid-item">
+                <h2>2 x 12 = 24</h2>
+            </div>
+        </div>
+
+        <div class="exam-section">
+            <div id="test-pa-div">
+                <p id="test-pa"> Now you can practice the 2 multiplication table 🙂 </p>
+            </div>
+
+            <div class="exam-questions">
+                <div>
+                    <h3 id="first-ask">2 x 3 = </h3><input id="first-input" type="number" />
+                </div>
+
+                <div>
+                    <h3 id="sec-ask">2 x 4 = </h3><input id="second-input" type="number" />
+                </div>
+
+                <div>
+                    <h3 id="third-ask">2 x 7 = </h3><input id="third-input" type="number" />
+                </div>
+
+                <div>
+                    <h3 id="forth-ask">2 x 9 = </h3><input id="forth-input" type="number" />
+                </div>
+
+                <div>
+                    <h3 id="fifth-ask">2 x 10 = </h3><input id="fifth-input" type="number" />
+                </div>
+
+                <div>
+                    <h3 id="sixth-ask">2 x 12 = </h3><input id="sixth-input" type="number" />
+                </div>
+            </div>
+
+            <div id="button-div">
+                
+                <button type="button" onclick="checkFunction()"> Check! </button>
+                <p id="exam-check"></p>
+            </div>
+        </div>
+
+        <div class="footer-div">
+            <footer>
+                <p class="footer-p">© 2024 Multiplication, Inc.<br />All rights reserved</p>
+            </footer>
+        </div>
+
+        <p id="demo"></p>
+        <script src="./index.js"></script>
+    </body>
+</html>
